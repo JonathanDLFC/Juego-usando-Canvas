@@ -1,0 +1,33 @@
+html{
+    background-color: rgb(160, 61, 61);
+    height: 100%;
+}
+canvas{
+    border: 5px solid black; 
+    background: url('./Fotos/foto-fondo.jpg') repeat;
+}
+
+div{
+    padding: 5px;
+    background-color: rgb(190, 179, 24);
+    border: 5px solid black;
+    width: 500px;
+}
+@media only screen and (min-width: 800px) {
+    body{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        height: 100%;
+    }
+}
+@media only screen and (max-width: 800px) {
+    body{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        height: 100%;
+    }
+}
